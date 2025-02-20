@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in COBOL programs: numeric overflow. The bug.cob file contains code that adds 1 to WS-VAR1 repeatedly. If WS-VAR1 exceeds 99999, an overflow occurs.  The bugSolution.cob provides a solution to prevent this issue.
